@@ -1,0 +1,5 @@
+- 👋 Hola, somos @MISSAGROAR
+- 👀 Estoy interesado en el Análisis de Datos. Diseño Experimental. AgTech. Agricultura de Precisión.
+- 🌱 Actualmente estamos aprendiendo R & Python.
+- 💞️ Estamos buscando colaboraciones para el Manejo Integral Sostenible del Sistema Agropecuario en Argentina.
+- 📫 Podes encontrarnos en X como @missagroar
