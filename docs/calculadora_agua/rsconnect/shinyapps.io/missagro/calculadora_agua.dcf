@@ -1,0 +1,10 @@
+name: calculadora_agua
+title:
+username: missagro
+account: missagro
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14595148
+bundleId: 10166313
+url: https://missagro.shinyapps.io/calculadora_agua/
+version: 1

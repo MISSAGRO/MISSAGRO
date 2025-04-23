@@ -1,0 +1,76 @@
+---
+title: "Servicios"
+output: 
+  html_document:
+    includes:
+      in_header: "./header.html"
+      after_body: "./footer.html"
+    css: style.css
+---
+
+---
+
+# ACTIVOS
+
+---
+
+## 📈 Análisis de datos para la toma de decisiones
+
+Convertimos información agronómica en decisiones estratégicas, a través del procesamiento, visualización e interpretación de datos provenientes del campo, sensores, imágenes y registros de manejo.
+
+- Procesamiento y visualización de datos agronómicos (R, QGIS, Excel avanzado)
+- Análisis multivariado: identificación de patrones y relaciones entre variables
+- Modelos de predicción para estimar rendimientos o evaluar escenarios de manejo
+- Integración de datos meteorológicos, satelitales y de sensores de suelo
+- Tableros de control personalizados para el seguimiento de indicadores clave (KPI)
+- Informes técnicos para la toma de decisiones por lote, campaña o establecimiento
+
+---
+
+# PRÓXIMAMENTE
+
+---
+
+## 🌱 Monitoreo agronómico con drones
+
+Utilizamos drones equipados con sensores multiespectrales para generar información precisa y oportuna sobre el estado de los cultivos.
+
+- Captura de imágenes multiespectrales (NDVI, NDRE, GNDVI)
+- Evaluación de vigor vegetal y desarrollo foliar
+- Detección temprana de estrés hídrico, nutricional o sanitario
+- Seguimiento fenológico y generación de mapas de cobertura verde
+- Análisis comparativo entre lotes o campañas
+
+---
+
+## 🚁 Aplicaciones operativas con drones
+
+Ofrecemos soluciones de **agricultura aérea de precisión** adaptadas a distintas etapas del ciclo productivo.
+
+- Siembra aérea de cultivos de cobertura (vicia, centeno, ryegrass)
+- Implantación de intercultivos sin labranza (siembra directa aérea)
+- Aplicación foliar de fitosanitarios, bioinsumos y bioestimulantes
+- Control localizado de plagas y enfermedades
+- Fertilización aérea con insumos sólidos o líquidos
+
+---
+
+## 📊 Agricultura de precisión y análisis espacial
+
+Transformamos datos en decisiones con herramientas de análisis geoespacial.
+
+- Generación de mapas de prescripción para siembra y fertilización variable
+- Zonificación por ambientes productivos
+- Diagnóstico integral de limitantes y potenciales del lote
+- Integración con plataformas de gestión agronómica
+
+---
+
+## 🌾 Diversificación del agroecosistema
+
+Promovemos sistemas productivos más resilientes, rentables y sostenibles.
+
+- Incorporación de nuevas especies en la rotación (cultivos funcionales y multipropósito)
+- Diseño de esquemas de diversificación por ambiente productivo
+- Asesoramiento en estrategias de transición agroecológica
+- Evaluación del impacto agronómico y económico de la diversificación

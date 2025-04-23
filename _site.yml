@@ -1,0 +1,22 @@
+name: "MISS AGRO"
+output_dir: "docs"
+navbar:
+  title: "MISS AGRO"
+  left:
+    - text: "Inicio"
+      href: index.html
+    - text: "¿Quiénes somos?"
+      href: quienes_somos.html
+    - text: "Servicios"
+      href: servicios.html
+    - text: "Calculá EUA"
+      href: calculadora_agua.html
+    - text: "Contacto"
+      href: contacto.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: tango
+    css: style.css
+    includes:
+      in_header: includes/header.html

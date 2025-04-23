@@ -1,0 +1,56 @@
+---
+title: "Sobre nosotros"
+output: 
+  html_document:
+    includes:
+      in_header: "./header.html"
+      after_body: "./footer.html"
+    css: style.css
+---
+
+ 🧭  En MISS AGRO creemos que la transformación del sistema agropecuario comienza con decisiones inteligentes, basadas en datos, conocimiento y compromiso con la sostenibilidad.
+
+---
+
+## 👥 ¿Quiénes somos?
+
+Somos un equipo interdisciplinario de profesionales en ciencias agrarias, tecnología y análisis de datos aplicados al agro. Contamos con formación de posgrado, experiencia académica y trayectoria en campo, lo que nos permite unir el saber técnico con las realidades productivas de cada establecimiento.
+
+Te invitamos a conocernos y ser parte de esta evolución.
+
+---
+
+## 🎯 Nuestro objetivo
+
+Nuestro objetivo es achicar la brecha entre las nuevas tecnologías que surgen en el sector agropecuario y su efectiva implementación en sistemas productivos reales. Actuamos como un puente entre la innovación y el productor, facilitando el acceso a herramientas concretas que mejoran el rendimiento, optimizan recursos y cuidan el ambiente.
+
+---
+
+## 🌿 Misión
+
+Impulsar la transformación del sistema agropecuario argentino promoviendo la adopción efectiva de tecnologías sustentables, mediante consultoría técnica, análisis de datos y acompañamiento estratégico adaptado a cada territorio.
+
+---
+
+## 🌄 Visión
+
+Ser referentes en la integración de innovación, conocimiento y sostenibilidad para lograr un agro más inteligente, justo y resiliente, donde cada productor pueda acceder a herramientas que optimicen su sistema sin dejar de cuidar el ambiente ni perder identidad local.
+
+---
+
+## 🌟 Valores
+
+- **Compromiso territorial**  
+  Conocemos la diversidad de realidades productivas y acompañamos con presencia activa en el territorio.
+
+- **Innovación accesible**  
+  Nos enfocamos en reducir la brecha entre las tecnologías disponibles y su implementación real.
+
+- **Ética profesional**  
+  Basamos nuestro trabajo en la transparencia, la confidencialidad y el respeto por cada persona y comunidad.
+
+- **Sostenibilidad integral**  
+  Proponemos soluciones que consideran la productividad, el ambiente y el bienestar social.
+
+- **Interdisciplinariedad**  
+  Combinamos saberes técnicos, científicos y empíricos para lograr respuestas concretas a problemas complejos.

@@ -1,0 +1,22 @@
+---
+title: "MISS AGRO ARGENTINA"
+output: 
+  html_document:
+    includes:
+      in_header: "./header.html"
+      after_body: "./footer.html"
+    css: style.css
+---
+
+# Bienvenidos 🌱
+
+**Soluciones de precisión para el Manejo Integral Sostenible del Sistema Agropecuario.**
+
+Ofrecemos servicios especializados en monitoreo aéreo, análisis multiespectral, siembra aérea y más.
+
+👉 Navegá el sitio para conocer más.
+
+<img src="img/portada.png" width="100%" alt="Header MISS AGRO" />
+
+
+
