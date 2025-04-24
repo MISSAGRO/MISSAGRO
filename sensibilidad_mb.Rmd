@@ -1,0 +1,65 @@
+---
+title: "Análisis de sensibilidad del MB"
+output: 
+  html_document:
+    includes:
+      in_header: "./header.html"
+      after_body: "./footer.html"
+    css: style.css
+---
+
+📈 Herramienta de **Análisis de Sensibilidad del Margen Bruto** para Cultivos de Invierno  
+Esta aplicación interactiva desarrollada por MISS AGRO permite estimar de forma rápida y visual cómo pequeñas variaciones en el precio de los cultivos impactan directamente en el margen bruto por hectárea, ayudando a los productores y asesores a tomar decisiones informadas antes de la siembra.
+
+🎯 Objetivo  
+Ofrecer una herramienta sencilla pero potente para simular diferentes escenarios económicos y comprender la sensibilidad del margen a fluctuaciones del mercado, en cultivos como trigo, cebada y arveja.
+
+⚙️ ¿Cómo funciona?  
+El usuario debe ingresar:
+
+- El cultivo de invierno a analizar (Trigo, Cebada o Arveja)
+
+- El rendimiento esperado en kg/ha
+
+- El precio base estimado de venta, en US$/tonelada
+
+- El costo total estimado de producción, en US$/ha
+
+Con estos datos, la app calcula automáticamente:
+
+- El margen bruto actual
+
+- El margen bruto si el precio bajara un 5%
+
+- El margen bruto si el precio aumentara un 5%
+
+Los resultados se muestran en una tabla comparativa y en un gráfico de barras, facilitando la lectura y comparación visual de los tres escenarios posibles.
+
+📊 ¿Qué aporta esta herramienta?  
+Una forma rápida y práctica de analizar escenarios de riesgo de mercado  
+
+Mayor capacidad para anticipar decisiones de siembra, compra o cobertura  
+
+Un ejemplo concreto de cómo aplicar agricultura basada en datos a nivel económico-productivo  
+
+Una puerta de entrada a servicios más avanzados de gestión agronómica y planificación estratégica  
+
+🌾 Aplicación práctica  
+
+La herramienta está pensada para productores, asesores técnicos y tomadores de decisiones, especialmente en la región centro-sur de la provincia de Buenos Aires y zonas aledañas, donde los cultivos de fina representan una parte clave del sistema productivo. Sirve como complemento ideal para proyectos de:
+
+- Presupuestación y planificación de campaña
+
+- Evaluación de márgenes esperados
+
+- Análisis de punto de equilibrio
+
+- Simulación de escenarios de precios
+
+🚀 Acceso e integración  
+
+Esta app está disponible online como parte del ecosistema digital de MISS AGRO y puede integrarse fácilmente en otras herramientas de gestión. También se puede personalizar para empresas agropecuarias, cooperativas o consultoras.
+
+👉 Probala ahora mismo:
+
+<iframe src="https://missagro.shinyapps.io/sensibilidad_mb/" width="100%" height="600" frameborder="0"></iframe>

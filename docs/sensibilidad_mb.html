@@ -11,7 +11,7 @@
 
 
 
-<title>Comunicate con nosotros</title>
+<title>Análisis de sensibilidad del MB</title>
 
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -280,93 +280,69 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Comunicate con nosotros</h1>
+<h1 class="title toc-ignore">Análisis de sensibilidad del MB</h1>
 
 </div>
 
 
-<hr />
-<div id="contacto" class="section level1">
-<h1>👥 Contacto</h1>
-<p>📧 <strong>Email:</strong> <a
-href="mailto:missagroar@gmail.com">miss.agro.ar@gmail.com</a><br />
-📱 <strong>WhatsApp:</strong> +54 9 1134146211<br />
-📍 <strong>Ubicación:</strong> Provincia de Buenos Aires
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" alt="Bandera Argentina" width="24" style="vertical-align:middle;"></p>
-<hr />
-</div>
-<div id="seguinos-en-nuestras-redes" class="section level1">
-<h1>🌐 Seguinos en nuestras redes</h1>
-<p><a href="https://x.com/missagroar">🐦 X/Twitter – <span
-class="citation">@missagroar</span></a><br />
-<a href="https://github.com/MISSAGRO">🐱 Github - MISSAGRO</a><br />
-<a href="https://missagro.github.io/MISSAGRO">💻 Sitio web</a></p>
-<hr />
-<div id="querés-recibir-una-propuesta-para-tu-campo"
-class="section level2">
-<h2>🤝 ¿Querés recibir una propuesta para tu campo?</h2>
-<p>📬 Escribinos con tu localidad y tipo de producción.</p>
-<!-- Botón que despliega el formulario de servicios -->
-<button onclick="document.getElementById(&#39;formulario-servicios&#39;).style.display=&#39;block&#39;" style="background-color: #1ea379; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-top: 10px;">
-📧 Consultar servicios
-</button>
-<!-- Formulario de servicios -->
-<div id="formulario-servicios" style="display:none; margin-top: 20px;">
-<form action="https://formspree.io/f/xvgaonga" method="POST">
-<p><label>Nombre completo:<br>
-<input type="text" name="nombre" required> </label><br><br></p>
-<p><label>Email de contacto:<br>
-<input type="email" name="_replyto" required> </label><br><br></p>
-<p><label>Zona o localidad:<br> <input type="text" name="zona">
-</label><br><br></p>
-<label>¿En qué servicios tenés interés?<br>
-<textarea name="mensaje" rows="4" required></textarea>
-<p></label><br><br></p>
-<button type="submit" style="background-color:#004d40; color:white; padding:10px 20px; border:none; border-radius:5px;">
-Enviar consulta
-</button>
-</form>
-</div>
-<hr />
-</div>
-<div id="te-gusta-lo-que-hacemos" class="section level2">
-<h2>🤝 ¿Te gusta lo que hacemos?</h2>
-<p>💞️ En MISS AGRO creemos que los desafíos de los sistemas
-agropecuarios argentinos requieren alianzas diversas, creativas y
-comprometidas.</p>
-<p><strong>Estamos buscando colaboraciones para el Manejo Integral
-Sostenible del Sistema Agropecuario en Argentina.</strong></p>
-<p>Si trabajás en el sector agropecuario, ciencia, tecnología, extensión
-rural, agroindustria, educación o comunicación y querés sumar esfuerzos,
-no dudes en escribirnos. Nos interesa co-crear, compartir saberes y
-generar impacto real.</p>
-<!-- Botón que despliega el formulario de colaboración -->
-<button onclick="document.getElementById(&#39;formulario-colaboracion&#39;).style.display=&#39;block&#39;" style="background-color: #1ea379; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-top: 10px;">
-📧 Quiero colaborar
-</button>
-<!-- Formulario de colaboración -->
-<div id="formulario-colaboracion"
-style="display:none; margin-top: 20px;">
-<form action="https://formspree.io/f/xvgaonga" method="POST">
-<p><label>Nombre completo:<br>
-<input type="text" name="nombre" required> </label><br><br></p>
-<p><label>Email de contacto:<br>
-<input type="email" name="_replyto" required> </label><br><br></p>
-<p><label>Zona o localidad:<br> <input type="text" name="zona">
-</label><br><br></p>
-<label>¿En qué te gustaría colaborar?<br>
-<textarea name="mensaje" rows="4" required></textarea>
-<p></label><br><br></p>
-<button type="submit" style="background-color:#004d40; color:white; padding:10px 20px; border:none; border-radius:5px;">
-Enviar propuesta
-</button>
-</form>
-</div>
-<hr />
-<p>📩 O escribinos directamente a <a
-href="mailto:miss.agro.ar@gmail.com">miss.agro.ar@gmail.com</a></p>
-</div>
-</div>
+<p>📈 Herramienta de <strong>Análisis de Sensibilidad del Margen
+Bruto</strong> para Cultivos de Invierno<br />
+Esta aplicación interactiva desarrollada por MISS AGRO permite estimar
+de forma rápida y visual cómo pequeñas variaciones en el precio de los
+cultivos impactan directamente en el margen bruto por hectárea, ayudando
+a los productores y asesores a tomar decisiones informadas antes de la
+siembra.</p>
+<p>🎯 Objetivo<br />
+Ofrecer una herramienta sencilla pero potente para simular diferentes
+escenarios económicos y comprender la sensibilidad del margen a
+fluctuaciones del mercado, en cultivos como trigo, cebada y arveja.</p>
+<p>⚙️ ¿Cómo funciona?<br />
+El usuario debe ingresar:</p>
+<ul>
+<li><p>El cultivo de invierno a analizar (Trigo, Cebada o
+Arveja)</p></li>
+<li><p>El rendimiento esperado en kg/ha</p></li>
+<li><p>El precio base estimado de venta, en US$/tonelada</p></li>
+<li><p>El costo total estimado de producción, en US$/ha</p></li>
+</ul>
+<p>Con estos datos, la app calcula automáticamente:</p>
+<ul>
+<li><p>El margen bruto actual</p></li>
+<li><p>El margen bruto si el precio bajara un 5%</p></li>
+<li><p>El margen bruto si el precio aumentara un 5%</p></li>
+</ul>
+<p>Los resultados se muestran en una tabla comparativa y en un gráfico
+de barras, facilitando la lectura y comparación visual de los tres
+escenarios posibles.</p>
+<p>📊 ¿Qué aporta esta herramienta?<br />
+Una forma rápida y práctica de analizar escenarios de riesgo de
+mercado</p>
+<p>Mayor capacidad para anticipar decisiones de siembra, compra o
+cobertura</p>
+<p>Un ejemplo concreto de cómo aplicar agricultura basada en datos a
+nivel económico-productivo</p>
+<p>Una puerta de entrada a servicios más avanzados de gestión agronómica
+y planificación estratégica</p>
+<p>🌾 Aplicación práctica</p>
+<p>La herramienta está pensada para productores, asesores técnicos y
+tomadores de decisiones, especialmente en la región centro-sur de la
+provincia de Buenos Aires y zonas aledañas, donde los cultivos de fina
+representan una parte clave del sistema productivo. Sirve como
+complemento ideal para proyectos de:</p>
+<ul>
+<li><p>Presupuestación y planificación de campaña</p></li>
+<li><p>Evaluación de márgenes esperados</p></li>
+<li><p>Análisis de punto de equilibrio</p></li>
+<li><p>Simulación de escenarios de precios</p></li>
+</ul>
+<p>🚀 Acceso e integración</p>
+<p>Esta app está disponible online como parte del ecosistema digital de
+MISS AGRO y puede integrarse fácilmente en otras herramientas de
+gestión. También se puede personalizar para empresas agropecuarias,
+cooperativas o consultoras.</p>
+<p>👉 Probala ahora mismo:</p>
+<iframe src="https://missagro.shinyapps.io/sensibilidad_mb/" width="100%" height="600" frameborder="0">
+</iframe>
 
 <footer>
   <img src="img/logo.png" alt="Logo MISS AGRO">

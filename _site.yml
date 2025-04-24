@@ -9,8 +9,12 @@ navbar:
       href: quienes_somos.html
     - text: "Servicios"
       href: servicios.html
-    - text: "Calculá EUA"
-      href: calculadora_agua.html
+    - text: "Aplicaciones"
+      menu:
+        - text: "Calculá EUA"
+          href: calculadora_agua.html
+        - text: "Análisis de sensibilidad MB"
+          href: sensibilidad_mb.html
     - text: "Contacto"
       href: contacto.html
 output:

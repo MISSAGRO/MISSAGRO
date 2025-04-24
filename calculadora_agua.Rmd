@@ -11,3 +11,34 @@ output:
 Esta herramienta te permite estimar la eficiencia de uso del agua (kg/mm) según el cultivo, el rendimiento obtenido y el agua acumulada. Es una demostración práctica de cómo la información agronómica puede ayudarte a tomar mejores decisiones productivas.
 
 <iframe src="https://missagro.shinyapps.io/calculadora_agua/" width="100%" height="600" frameborder="0"></iframe>
+
+---
+
+## 💧 ¿Por qué es importante medir la eficiencia en el uso del agua?
+
+La **Eficiencia de Uso del Agua (EUA)** expresa cuántos kilogramos de grano se obtienen por cada milímetro de agua utilizado. Es un indicador clave para optimizar el rendimiento hídrico del cultivo, especialmente en regiones como la **provincia de Buenos Aires** y zonas productivas aledañas donde la variabilidad climática y los excesos o déficits hídricos son frecuentes.
+
+Monitorear la EUA permite:
+- Identificar ineficiencias en el uso del agua (escurrimiento, evaporación, mal riego)
+- Comparar ambientes o campañas
+- Tomar decisiones correctivas a tiempo
+- Hacer más rentable y sostenible cada milímetro de lluvia o riego aplicado
+
+Una EUA baja puede ser una señal de estrés, mal manejo o limitaciones físicas del suelo. Una EUA alta indica un cultivo eficiente, con buena captación y uso del agua.
+
+---
+
+## 🔧 ¿Cómo mejorar la eficiencia hídrica?
+
+Las siguientes prácticas permiten aumentar la eficiencia de uso del agua en maíz, soja, trigo y otros cultivos extensivos:
+
+- 🌱 **Imágenes multiespectrales** (NDVI, NDRE) o drones para detectar zonas con estrés hídrico.
+- 📡 **Monitoreo con sensores** de humedad del suelo y clima para aplicar el riego -si lo hubiera- en el momento justo.
+- 🌾 **Cultivos de cobertura** que protegen el suelo, aumentan la infiltración y reducen la evaporación.
+- 🚜 **Manejo conservacionista** del suelo (rotaciones, mínima labranza) que mejora la estructura y retención de agua.
+
+Estas herramientas forman parte de los servicios de **agricultura de precisión** que ofrecemos en MISS AGRO. Te acompañamos a diagnosticar, interpretar y aplicar estrategias concretas para **aumentar el rendimiento por cada mm de agua disponible**.
+
+---
+
+**💡 Recordá:** mejorar la EUA no solo significa ahorrar agua, sino **producir más con la misma cantidad**. Es eficiencia, rentabilidad y sustentabilidad al mismo tiempo.
