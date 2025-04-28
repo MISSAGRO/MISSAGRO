@@ -16,7 +16,8 @@ Ofrecemos servicios especializados de análisis de datos, monitoreo aéreo, aná
 
 👉 Navegá el sitio para conocernos.
 
-<img src="img/portada.png" width="100%" alt="Header MISS AGRO" />
-
+<div class="hero-banner">
+  <img src="img/portada.png" alt="Header MISS AGRO" />
+</div>
 
 

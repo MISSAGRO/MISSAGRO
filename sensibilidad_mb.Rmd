@@ -8,16 +8,14 @@ output:
     css: style.css
 ---
 
-📈 Herramienta de **Análisis de Sensibilidad del Margen Bruto** para Cultivos de Invierno  
+📈 Herramienta de **Análisis de Sensibilidad del Margen Bruto** para cultivos. 
 Esta aplicación interactiva desarrollada por MISS AGRO permite estimar de forma rápida y visual cómo pequeñas variaciones en el precio de los cultivos impactan directamente en el margen bruto por hectárea, ayudando a los productores y asesores a tomar decisiones informadas antes de la siembra.
 
 🎯 Objetivo  
-Ofrecer una herramienta sencilla pero potente para simular diferentes escenarios económicos y comprender la sensibilidad del margen a fluctuaciones del mercado, en cultivos como trigo, cebada y arveja.
+Ofrecer una herramienta sencilla pero potente para simular diferentes escenarios económicos y comprender la sensibilidad del margen a fluctuaciones del mercado.
 
 ⚙️ ¿Cómo funciona?  
 El usuario debe ingresar:
-
-- El cultivo de invierno a analizar (Trigo, Cebada o Arveja)
 
 - El rendimiento esperado en kg/ha
 
@@ -29,24 +27,24 @@ Con estos datos, la app calcula automáticamente:
 
 - El margen bruto actual
 
-- El margen bruto si el precio bajara un 5%
+- El margen bruto si el precio bajara un 5% y 10%
 
-- El margen bruto si el precio aumentara un 5%
+- El margen bruto si el precio aumentara un 5% y 10%
 
-Los resultados se muestran en una tabla comparativa y en un gráfico de barras, facilitando la lectura y comparación visual de los tres escenarios posibles.
+Los resultados se muestran en una tabla comparativa y en un gráfico de barras, facilitando la lectura y comparación visual de los cinco escenarios posibles.
 
 📊 ¿Qué aporta esta herramienta?  
-Una forma rápida y práctica de analizar escenarios de riesgo de mercado  
+- Una forma rápida y práctica de analizar escenarios de riesgo de mercado  
 
-Mayor capacidad para anticipar decisiones de siembra, compra o cobertura  
+- Mayor capacidad para anticipar decisiones de siembra, compra, cobertura, puts u opciones  
 
-Un ejemplo concreto de cómo aplicar agricultura basada en datos a nivel económico-productivo  
+- Un ejemplo concreto de cómo aplicar agricultura basada en datos a nivel económico-productivo  
 
-Una puerta de entrada a servicios más avanzados de gestión agronómica y planificación estratégica  
+- Una puerta de entrada a servicios más avanzados de gestión agronómica y planificación estratégica  
 
 🌾 Aplicación práctica  
 
-La herramienta está pensada para productores, asesores técnicos y tomadores de decisiones, especialmente en la región centro-sur de la provincia de Buenos Aires y zonas aledañas, donde los cultivos de fina representan una parte clave del sistema productivo. Sirve como complemento ideal para proyectos de:
+La herramienta está pensada para productores, asesores técnicos y tomadores de decisiones:
 
 - Presupuestación y planificación de campaña
 

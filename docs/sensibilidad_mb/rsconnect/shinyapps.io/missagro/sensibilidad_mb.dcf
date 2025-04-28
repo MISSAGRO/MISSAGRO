@@ -5,6 +5,6 @@ account: missagro
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 14608379
-bundleId: 10173054
+bundleId: 10194084
 url: https://missagro.shinyapps.io/sensibilidad_mb/
 version: 1
