@@ -1,5 +1,5 @@
 ---
-title: "Análisis de sensibilidad del MB"
+title: "Future Margin +"
 output: 
   html_document:
     includes:
@@ -54,10 +54,12 @@ La herramienta está pensada para productores, asesores técnicos y tomadores de
 
 - Simulación de escenarios de precios
 
-🚀 Acceso e integración  
+- ¿Debo pensar en opciones a futuro?
 
-Esta app está disponible online como parte del ecosistema digital de MISS AGRO y puede integrarse fácilmente en otras herramientas de gestión. También se puede personalizar para empresas agropecuarias, cooperativas o consultoras.
+🚀 Acceso e integración  
 
 👉 Probala ahora mismo:
 
-<iframe src="https://missagro.shinyapps.io/sensibilidad_mb/" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="https://missagro.shinyapps.io/FutureMargin/" width="100%" height="600" frameborder="0"></iframe>
+
+Esta app está disponible online como parte del ecosistema digital de MISS AGRO y puede integrarse fácilmente en otras herramientas de gestión. También se puede personalizar para empresas agropecuarias, cooperativas o consultoras.

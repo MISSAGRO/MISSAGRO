@@ -107,5 +107,28 @@ Si trabajás en el sector agropecuario, ciencia, tecnología, extensión rural, 
 
 ---
 
-📩 O escribinos directamente a [miss.agro.ar@gmail.com](mailto:miss.agro.ar@gmail.com)
+## 🤝 ¿Querés ser sponsor de MISS AGRO?  
+
+MISS AGRO impulsa la transformación del agro argentino a través de innovación, sostenibilidad y datos de precisión.
+Buscamos aliados estratégicos que compartan nuestra visión y quieran acompañar nuestro crecimiento.
+
+Si sos parte de una empresa o institución y te interesa patrocinar nuestros proyectos, te ofrecemos espacios de difusión en nuestra página principal y materiales de comunicación.
+
+¡Sumate y crezcamos juntos!
+
+<!-- Botón que despliega el formulario de sponsor -->
+<button onclick="document.getElementById('formulario-sponsor').style.display='block'" style="background-color: #1ea379; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-top: 10px;"> 🌟 Quiero ser sponsor </button>
+
+<!-- Formulario de sponsor --> <div id="formulario-sponsor" style="display:none; margin-top: 20px;"> <form action="https://formspree.io/f/xvgaonga" method="POST"> <label>Nombre completo:<br> <input type="text" name="nombre" required> </label><br><br>
+<label>Email de contacto:<br> <input type="email" name="_replyto" required> </label><br><br>
+
+<label>Empresa / Institución:<br> <input type="text" name="empresa"> </label><br><br>
+
+<label>Mensaje:<br> <textarea name="mensaje" rows="4" required placeholder="Contanos brevemente tu propuesta de sponsoreo."></textarea> </label><br><br>
+
+<button type="submit" style="background-color:#004d40; color:white; padding:10px 20px; border:none; border-radius:5px;"> Enviar propuesta </button> </form> </div>
+
+---
+
+📩 O escribinos tu cosulta directamente a [miss.agro.ar@gmail.com](mailto:miss.agro.ar@gmail.com)
 

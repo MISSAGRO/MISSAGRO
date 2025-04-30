@@ -1,0 +1,25 @@
+---
+title: "MixCheck"
+output: 
+  html_document:
+    includes:
+      in_header: "./header.html"
+      after_body: "./footer.html"
+    css: style.css
+---
+
+⚠️ EN DESARROLLO ⚠️
+
+🌿 Compatibilidad de herbicidas para soja  
+
+🛡️ Esta herramienta te permite evaluar rápidamente combinaciones entre herbicidas de uso frecuente en soja o barbecho, para prevenir problemas como precipitación, fitotoxicidad o fallas en el control de malezas.
+
+🔎 Seleccioná hasta 4 herbicidas, verificá su compatibilidad y optimizá tus aplicaciones de manera segura y eficiente.
+
+<iframe src="https://missagro.shinyapps.io/MixCheck/" width="100%" height="600" frameborder="0"></iframe>
+
+⚠️ Los resultados aquí presentados se basan en información técnica disponible y buenas prácticas agrícolas, pero siempre recomendamos consultar con un asesor agronómico para situaciones específicas.  
+
+⚠️ Las compatibilidades se basan en los principios activos de los herbicidas. Para formulaciones comerciales específicas, consultar la ficha técnica del producto.  
+
+⚠️ Es esencial realizar una prueba de compatibilidad a pequeña escala. Esta prueba consiste en mezclar los productos en un recipiente limpio, siguiendo las proporciones y condiciones que se utilizarán en el campo. Observá la mezcla durante al menos 30 minutos para detectar signos de incompatibilidad, como separación de fases, formación de grumos o precipitados. Esta práctica ayuda a prevenir problemas durante la aplicación y asegura la eficacia del tratamiento.  

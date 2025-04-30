@@ -1,0 +1,10 @@
+name: MixCheck
+title:
+username: missagro
+account: missagro
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14647157
+bundleId: 10201727
+url: https://missagro.shinyapps.io/MixCheck/
+version: 1
