@@ -1,0 +1,10 @@
+name: TecnoRadar
+title:
+username: missagro
+account: missagro
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14662078
+bundleId: 10212760
+url: https://missagro.shinyapps.io/TecnoRadar/
+version: 1

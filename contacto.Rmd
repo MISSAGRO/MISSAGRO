@@ -29,7 +29,9 @@ output:
 
 ## 🤝 ¿Querés recibir una propuesta para tu campo?
 
-📬 Escribinos con tu localidad y tipo de producción.
+🚜 Si estás listo para transformar tu forma de producir, adoptar tecnología, implementar agricultura de vanguardia y convertirte en un productor de presición, te invitamos a dar el primer paso.
+
+📬 Escribinos tu localidad, tipo de producción y objetivo, y te enviaremos una propuesta personalizada para mejorar la eficiencia, el manejo y la rentabilidad de tu sistema.
 
 <!-- Botón que despliega el formulario de servicios -->
 <button onclick="document.getElementById('formulario-servicios').style.display='block'" 

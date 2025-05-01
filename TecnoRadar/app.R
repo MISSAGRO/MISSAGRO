@@ -102,7 +102,7 @@ server <- function(input, output) {
         cglty = 1,
         axislabcol = "grey30",
         caxislabels = c("0", "1", "2", "3", "4"),
-        vlcex = 1.5,
+        vlcex = 1.3,
         cglwd = 0.8
       )
     })
