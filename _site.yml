@@ -11,10 +11,12 @@ navbar:
       href: servicios.html
     - text: "Aplicaciones"
       menu:
-        - text: "Hydro Yield"
-          href: HydroYield.html
+        - text: "Tecno Radar"
+          href: TecnoRadar.html
         - text: "Future Margin +"
           href: FutureMargin+.html
+        - text: "Hydro Yield"
+          href: HydroYield.html
         - text: "Mix Check"
           href: MixCheck.html
     - text: "Contacto"
