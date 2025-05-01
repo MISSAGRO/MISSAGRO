@@ -12,6 +12,8 @@ output:
 
 **TecnoRadar** es una herramienta interactiva desarrollada por MISS AGRO para que productores agropecuarios puedan autoevaluar el nivel de implementación tecnológica en sus sistemas productivos.
 
+<img src="img/tecnoradar_app.png" width="100%" alt="Ilustración de tecnología agrícola" style="margin-bottom: 20px;">
+
 A partir de un breve cuestionario de 16 preguntas distribuidas en 8 ejes clave (como digitalización, maquinaria, decisiones agronómicas o sostenibilidad), esta app te permite:
 
 - Clasificarte como **productor convencional**, **en transición**, **tecnificado** o **de precisión**

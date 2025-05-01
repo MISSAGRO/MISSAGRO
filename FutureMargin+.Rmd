@@ -11,6 +11,8 @@ output:
 📈 Herramienta de **Análisis de Sensibilidad del Margen Bruto** para cultivos. 
 Esta aplicación interactiva desarrollada por MISS AGRO permite estimar de forma rápida y visual cómo pequeñas variaciones en el precio de los cultivos impactan directamente en el margen bruto por hectárea, ayudando a los productores y asesores a tomar decisiones informadas antes de la siembra.
 
+<img src="img/futuremargin_app.png" width="100%" alt="Ilustración de tecnología agrícola" style="margin-bottom: 20px;">
+
 🎯 Objetivo  
 Ofrecer una herramienta sencilla pero potente para simular diferentes escenarios económicos y comprender la sensibilidad del margen a fluctuaciones del mercado.
 
