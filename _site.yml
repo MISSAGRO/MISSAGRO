@@ -17,8 +17,6 @@ navbar:
           href: FutureMargin+.html
         - text: "Hydro Yield"
           href: HydroYield.html
-        - text: "Mix Check"
-          href: MixCheck.html
     - text: "Contacto"
       href: contacto.html
 output:

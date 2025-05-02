@@ -13,9 +13,12 @@ output:
 # 👥 Contacto
 
 📧 **Email:** [miss.agro.ar@gmail.com](mailto:missagroar@gmail.com)  
-📱 **WhatsApp:** +54 9 1134146211  
 📍 **Ubicación:** Provincia de Buenos Aires
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" alt="Bandera Argentina" width="24" style="vertical-align:middle;">  
+
+```
+<!-- 📱 **WhatsApp:** +54 9 1134146211   -->
+```
 
 ---
 
