@@ -30,9 +30,6 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<!-- Tidio Chatbot -->
-<script src="//code.tidio.co/abqm4zd1dakny42fkom5esmombp6xzfc.js" async></script>
-
 <!-- Favicon -->
 <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -46,6 +43,41 @@
     <li><a href="contacto.html">Contacto</a></li>
   </ul>
 </nav>
+
+<!-- Chatbot de MISS AGRO integrado con Chatbase -->
+<script>
+(function(){
+  if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+    window.chatbase = (...args) => {
+      if (!window.chatbase.q) {
+        window.chatbase.q = [];
+      }
+      window.chatbase.q.push(args);
+    };
+    window.chatbase = new Proxy(window.chatbase, {
+      get(target, prop) {
+        if (prop === "q") return target.q;
+        return (...args) => target(prop, ...args);
+      }
+    });
+  }
+
+  const onLoad = function () {
+    const script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.id = "i26s5Tm69n99V1Y5tfUva";
+    script.domain = "www.chatbase.co";
+    document.body.appendChild(script);
+  };
+
+  if (document.readyState === "complete") {
+    onLoad();
+  } else {
+    window.addEventListener("load", onLoad);
+  }
+})();
+</script>
+
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -312,11 +344,6 @@ sostenibilidad), esta app te permite:</p>
 <li>Recibir sugerencias personalizadas con los servicios que MISS AGRO
 puede brindarte para mejorar</li>
 </ul>
-<blockquote>
-<p>Esta aplicación está pensada especialmente para productores de la
-Provincia de Buenos Aires y zonas aledañas, con el objetivo de facilitar
-la toma de decisiones y la adopción de tecnologías de precisión.</p>
-</blockquote>
 <hr />
 <div id="ingresá-tu-información-y-conocé-tu-perfil-tecnológico"
 class="section level3">

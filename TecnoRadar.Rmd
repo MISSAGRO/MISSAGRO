@@ -20,8 +20,6 @@ A partir de un breve cuestionario de 16 preguntas distribuidas en 8 ejes clave (
 - Visualizar tu perfil en un gráfico radar 📊
 - Recibir sugerencias personalizadas con los servicios que MISS AGRO puede brindarte para mejorar
 
-> Esta aplicación está pensada especialmente para productores de la Provincia de Buenos Aires y zonas aledañas, con el objetivo de facilitar la toma de decisiones y la adopción de tecnologías de precisión.
-
 ---
 
 ### 🚀 Ingresá tu información y conocé tu perfil tecnológico:

@@ -76,7 +76,7 @@ server <- function(input, output) {
       names.arg = c("Precio -10%", "Precio -5%", "Precio Base", "Precio +5%", "Precio +10%"),
       col = colores_barras,
       ylab = "Margen Bruto (US$/ha)",
-      main = "Análisis de Sensibilidad del Margen Bruto",
+      main = "",
       space = 1.5,
       ylim = c(min(0, min(margenes_con_put)), ylim_max)
     )
