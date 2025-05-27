@@ -20,4 +20,3 @@ Ofrecemos servicios especializados de análisis de datos, monitoreo aéreo, aná
   <img src="img/portada.png" alt="Header MISS AGRO" />
 </div>
 
-

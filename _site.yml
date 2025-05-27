@@ -1,4 +1,3 @@
-name: "MISS AGRO"
 output_dir: "docs"
 navbar:
   title: "MISS AGRO"
@@ -21,7 +20,7 @@ navbar:
       href: contacto.html
 output:
   html_document:
-    theme: cosmo
+    theme: cerulean
     highlight: tango
     css: style.css
     includes:
