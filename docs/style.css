@@ -17,7 +17,13 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-top: 100px; /* espacio para navbar fija */
+  padding-top: 80px; /* desktop por defecto */
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 120px; /* más espacio para navbar expandida en mobile */
+  }
 }
 
 /* NAVBAR personalizada */
