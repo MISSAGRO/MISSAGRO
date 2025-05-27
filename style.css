@@ -22,7 +22,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    padding-top: 180px; /* más espacio para navbar expandida en mobile */
+    padding-top: 280px; /* más espacio para navbar expandida en mobile */
   }
 }
 
