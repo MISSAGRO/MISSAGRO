@@ -128,8 +128,8 @@ a:hover {
 
 /* FOOTER */
 footer {
-  background-color: #0e2f2b;
-  color: #e0e0e0;
+  background-color: #f5f7f9;         /* mismo fondo que el body */
+  color: #0e6e55;                    /* texto verde institucional */
   text-align: center;
   padding: 40px 20px;
   font-size: 0.95em;
