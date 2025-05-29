@@ -129,7 +129,7 @@ a:hover {
 /* FOOTER */
 footer {
   background-color: #f5f7f9;         /* mismo fondo que el body */
-  color: #0e6e55;                    /* texto verde institucional */
+  color: #000000;                    /* texto verde institucional */
   text-align: center;
   padding: 40px 20px;
   font-size: 0.95em;
