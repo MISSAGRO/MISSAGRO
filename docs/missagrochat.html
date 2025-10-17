@@ -11,7 +11,7 @@
 
 
 
-<title>Hydro Yield</title>
+<title>MISS AGRO</title>
 
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -138,7 +138,39 @@
   </ul>
 </nav>
 
+<!-- Chatbot de MISS AGRO -->
+<script>
+(function(){
+  if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+    window.chatbase = (...args) => {
+      if (!window.chatbase.q) {
+        window.chatbase.q = [];
+      }
+      window.chatbase.q.push(args);
+    };
+    window.chatbase = new Proxy(window.chatbase, {
+      get(target, prop) {
+        if (prop === "q") return target.q;
+        return (...args) => target(prop, ...args);
+      }
+    });
+  }
 
+  const onLoad = function () {
+    const script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.id = "i26s5Tm69n99V1Y5tfUva";
+    script.domain = "www.chatbase.co";
+    document.body.appendChild(script);
+  };
+
+  if (document.readyState === "complete") {
+    onLoad();
+  } else {
+    window.addEventListener("load", onLoad);
+  }
+})();
+</script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -385,62 +417,36 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Hydro Yield</h1>
+<h1 class="title toc-ignore">MISS AGRO</h1>
 
 </div>
 
 
-<p>Esta herramienta te permite estimar la eficiencia de uso del agua
-(kg/mm) según el cultivo, el rendimiento obtenido y el agua acumulada.
-Es una demostración práctica de cómo la información agronómica puede
-ayudarte a tomar mejores decisiones productivas.</p>
-<p><img src="img/hydroyield_app.png" width="100%" alt="Ilustración de tecnología agrícola" style="margin-bottom: 20px;"></p>
-<iframe src="https://missagro.shinyapps.io/HydroYield/" width="100%" height="600" frameborder="0">
-</iframe>
-<hr />
-<div id="por-qué-es-importante-medir-la-eficiencia-en-el-uso-del-agua"
-class="section level2">
-<h2>💧 ¿Por qué es importante medir la eficiencia en el uso del
-agua?</h2>
-<p>La <strong>Eficiencia de Uso del Agua (EUA)</strong> expresa cuántos
-kilogramos de grano se obtienen por cada milímetro de agua utilizado. Es
-un indicador clave para optimizar el rendimiento hídrico del cultivo,
-especialmente en regiones como la <strong>provincia de Buenos
-Aires</strong> y zonas productivas aledañas donde la variabilidad
-climática y los excesos o déficits hídricos son frecuentes.</p>
-<p>Monitorear la EUA permite: - Identificar ineficiencias en el uso del
-agua (escurrimiento, evaporación, mal riego) - Comparar ambientes o
-campañas - Tomar decisiones correctivas a tiempo - Hacer más rentable y
-sostenible cada milímetro de lluvia o riego aplicado</p>
-<p>Una EUA baja puede ser una señal de estrés, mal manejo o limitaciones
-físicas del suelo. Una EUA alta indica un cultivo eficiente, con buena
-captación y uso del agua.</p>
-<hr />
-</div>
-<div id="cómo-mejorar-la-eficiencia-hídrica" class="section level2">
-<h2>🔧 ¿Cómo mejorar la eficiencia hídrica?</h2>
-<p>Las siguientes prácticas permiten aumentar la eficiencia de uso del
-agua en maíz, soja, trigo y otros cultivos extensivos:</p>
-<ul>
-<li>🌱 <strong>Imágenes multiespectrales</strong> (NDVI, NDRE) o drones
-para detectar zonas con estrés hídrico.</li>
-<li>📡 <strong>Monitoreo con sensores</strong> de humedad del suelo y
-clima para aplicar el riego -si lo hubiera- en el momento justo.</li>
-<li>🌾 <strong>Cultivos de cobertura</strong> que protegen el suelo,
-aumentan la infiltración y reducen la evaporación.</li>
-<li>🚜 <strong>Manejo conservacionista</strong> del suelo (rotaciones,
-mínima labranza) que mejora la estructura y retención de agua.</li>
-</ul>
-<p>Estas herramientas forman parte de los servicios de
-<strong>agricultura de precisión</strong> que ofrecemos en MISS AGRO. Te
-acompañamos a diagnosticar, interpretar y aplicar estrategias concretas
-para <strong>aumentar el rendimiento por cada mm de agua
-disponible</strong>.</p>
-<hr />
-<p><strong>💡 Recordá:</strong> mejorar la EUA no solo significa ahorrar
-agua, sino <strong>producir más con la misma cantidad</strong>. Es
-eficiencia, rentabilidad y sustentabilidad al mismo tiempo.</p>
-</div>
+<p>🤖 Chatbot MISS AGRO</p>
+<p><img src="img/missagrochat.png" width="70%" alt="Ilustración de MISS AGRO" style="margin-bottom: 20px;"></p>
+<p>En esta nueva sección de la plataforma, presentamos el chatbot
+oficial de MISS AGRO, una herramienta diseñada para brindar
+asesoramiento inmediato y personalizado sobre:</p>
+<p>🌾 Tecnologías aplicadas al agro</p>
+<p>🚜 Soluciones AgTech disponibles en Argentina</p>
+<p>🌱 Buenas prácticas sostenibles</p>
+<p>📲 Uso e integración de herramientas digitales</p>
+<p>Este asistente inteligente tiene como objetivo acercar la innovación
+al productor, derribando barreras tecnológicas y facilitando la adopción
+de nuevas herramientas que mejoren la eficiencia, la rentabilidad y la
+sostenibilidad del sistema agropecuario.</p>
+<p>Disponible como ventana emergente (pop-up) en la parte inferior
+derecha de esta página, el chatbot puede ayudarte a:</p>
+<p>Descubrir empresas, startups y desarrollos AgTech en tu región.</p>
+<p>Resolver dudas sobre sensores, plataformas, maquinaria conectada,
+agricultura de precisión, apps, mapas, etc.</p>
+<p>Comprender cómo aplicar tecnología en tu campo, paso a paso.</p>
+<p>Acceder a recomendaciones en tiempo real adaptadas a tu perfil como
+productor o asesor.</p>
+<p>💡 El chatbot se actualiza de manera continua con información
+verificada, relevante y contextualizada al territorio argentino.</p>
+<p>Con MISS AGRO, la tecnología está al alcance de un clic. Explorá esta
+herramienta y animate a transformar tu campo con innovación.</p>
 
 <footer>
   <img src="img/logo.png" alt="Logo MISS AGRO">

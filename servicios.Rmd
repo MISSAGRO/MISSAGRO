@@ -10,10 +10,6 @@ output:
 
 ---
 
-# ACTIVOS
-
----
-
 ## 📈 Análisis de datos para la toma de decisiones
 
 Convertimos información agronómica en decisiones estratégicas, a través del procesamiento, visualización e interpretación de datos provenientes del campo, sensores, imágenes y registros de manejo.
@@ -24,10 +20,6 @@ Convertimos información agronómica en decisiones estratégicas, a través del 
 - Integración de datos meteorológicos, satelitales y de sensores de suelo
 - Tableros de control personalizados para el seguimiento de indicadores clave (KPI)
 - Informes técnicos para la toma de decisiones por lote, campaña o establecimiento
-
----
-
-# PRÓXIMAMENTE
 
 ---
 
@@ -74,3 +66,15 @@ Promovemos sistemas productivos más resilientes, rentables y sostenibles.
 - Diseño de esquemas de diversificación por ambiente productivo
 - Asesoramiento en estrategias de transición agroecológica
 - Evaluación del impacto agronómico y económico de la diversificación
+
+---
+
+## 🧪 Análisis de laboratorio: calidad de semillas y micotoxinas
+
+Ofrecemos servicios especializados de análisis para asegurar la calidad y sanidad de los insumos agrícolas, fundamentales para una producción eficiente y segura.
+
+- Determinación de poder germinativo y viabilidad de semillas
+- Prueba de vigor (tetrazolio, envejecimiento acelerado, conductividad eléctrica)
+- Identificación de semillas anormales, dormancia y dureza
+- Detección y cuantificación de micotoxinas en granos y subproductos
+- Informe técnico con interpretación agronómica de resultados

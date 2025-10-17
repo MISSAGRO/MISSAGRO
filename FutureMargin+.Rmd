@@ -63,5 +63,3 @@ La herramienta está pensada para productores, asesores técnicos y tomadores de
 👉 Probala ahora mismo:
 
 <iframe src="https://missagro.shinyapps.io/FutureMargin/" width="100%" height="600" frameborder="0"></iframe>
-
-Esta app está disponible online como parte del ecosistema digital de MISS AGRO y puede integrarse fácilmente en otras herramientas de gestión. También se puede personalizar para empresas agropecuarias, cooperativas o consultoras.

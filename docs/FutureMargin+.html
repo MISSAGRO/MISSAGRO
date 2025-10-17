@@ -138,39 +138,6 @@
   </ul>
 </nav>
 
-<!-- Chatbot de MISS AGRO -->
-<script>
-(function(){
-  if (!window.chatbase || window.chatbase("getState") !== "initialized") {
-    window.chatbase = (...args) => {
-      if (!window.chatbase.q) {
-        window.chatbase.q = [];
-      }
-      window.chatbase.q.push(args);
-    };
-    window.chatbase = new Proxy(window.chatbase, {
-      get(target, prop) {
-        if (prop === "q") return target.q;
-        return (...args) => target(prop, ...args);
-      }
-    });
-  }
-
-  const onLoad = function () {
-    const script = document.createElement("script");
-    script.src = "https://www.chatbase.co/embed.min.js";
-    script.id = "i26s5Tm69n99V1Y5tfUva";
-    script.domain = "www.chatbase.co";
-    document.body.appendChild(script);
-  };
-
-  if (document.readyState === "complete") {
-    onLoad();
-  } else {
-    window.addEventListener("load", onLoad);
-  }
-})();
-</script>
 
 
 <style type="text/css">
@@ -390,6 +357,9 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
+      <a href="missagrochat.html">MISS AGRO</a>
+    </li>
+    <li>
       <a href="TecnoRadar.html">Tecno Radar</a>
     </li>
     <li>
@@ -472,10 +442,6 @@ tomadores de decisiones:</p>
 <p>👉 Probala ahora mismo:</p>
 <iframe src="https://missagro.shinyapps.io/FutureMargin/" width="100%" height="600" frameborder="0">
 </iframe>
-<p>Esta app está disponible online como parte del ecosistema digital de
-MISS AGRO y puede integrarse fácilmente en otras herramientas de
-gestión. También se puede personalizar para empresas agropecuarias,
-cooperativas o consultoras.</p>
 
 <footer>
   <img src="img/logo.png" alt="Logo MISS AGRO">

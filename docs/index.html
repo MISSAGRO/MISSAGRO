@@ -138,39 +138,6 @@
   </ul>
 </nav>
 
-<!-- Chatbot de MISS AGRO -->
-<script>
-(function(){
-  if (!window.chatbase || window.chatbase("getState") !== "initialized") {
-    window.chatbase = (...args) => {
-      if (!window.chatbase.q) {
-        window.chatbase.q = [];
-      }
-      window.chatbase.q.push(args);
-    };
-    window.chatbase = new Proxy(window.chatbase, {
-      get(target, prop) {
-        if (prop === "q") return target.q;
-        return (...args) => target(prop, ...args);
-      }
-    });
-  }
-
-  const onLoad = function () {
-    const script = document.createElement("script");
-    script.src = "https://www.chatbase.co/embed.min.js";
-    script.id = "i26s5Tm69n99V1Y5tfUva";
-    script.domain = "www.chatbase.co";
-    document.body.appendChild(script);
-  };
-
-  if (document.readyState === "complete") {
-    onLoad();
-  } else {
-    window.addEventListener("load", onLoad);
-  }
-})();
-</script>
 
 
 <style type="text/css">
@@ -390,6 +357,9 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
+      <a href="missagrochat.html">MISS AGRO</a>
+    </li>
+    <li>
       <a href="TecnoRadar.html">Tecno Radar</a>
     </li>
     <li>
@@ -424,8 +394,9 @@ $(document).ready(function () {
 <h1>Bienvenidos 🌱</h1>
 <p><strong>Soluciones de precisión para el Manejo Integral Sostenible
 del Sistema Agropecuario.</strong></p>
-<p>Ofrecemos servicios especializados de análisis de datos, monitoreo
-aéreo, análisis multiespectral, siembra aérea y más.</p>
+<p>Ofrecemos vinculación con servicios especializados de análisis de
+datos, monitoreo aéreo, análisis multiespectral, siembra aérea, análisis
+de laboratorio y más.</p>
 <p>👉 Navegá el sitio para conocernos.</p>
 <div class="hero-banner">
 <p><img src="img/portada.png" alt="Header MISS AGRO" /></p>

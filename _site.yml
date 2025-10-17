@@ -10,6 +10,8 @@ navbar:
       href: servicios.html
     - text: "Aplicaciones"
       menu:
+        - text: "MISS AGRO"
+          href: missagrochat.html
         - text: "Tecno Radar"
           href: TecnoRadar.html
         - text: "Future Margin +"
