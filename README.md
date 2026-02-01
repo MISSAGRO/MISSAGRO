@@ -1,5 +1,5 @@
 - 👋 Hola, somos MISS AGRO AR
 - 👀 Estamos interesados en el Análisis de Datos. Diseño Experimental. AgTech. Agricultura de Precisión.
-- 🌱 Actualmente estamos aprendiendo R & Python.
+- 🌱 Actualmente estamos explorando el ecosistema AgTech argentino.
 - 💞️ Estamos buscando colaboraciones para el Manejo Integral Sostenible del Sistema Agropecuario en Argentina.
 - 📫 Podes encontrarnos en X como @missagroar y en nuestra web https://missagro.github.io/MISSAGRO
