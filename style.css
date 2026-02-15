@@ -642,26 +642,19 @@ footer {
     height: auto;
     aspect-ratio: 1/1;
     object-fit: cover;
-    transform: scale(1.08);
-    /* Scale up to push the watermark out of view */
-    transition: transform 0.3s ease;
+    display: block;
     animation: floatAvatar 6s ease-in-out infinite;
-}
-
-.about-tech-img:hover {
-    transform: scale(1.12);
-    /* Slightly more zoom on hover */
 }
 
 @keyframes floatAvatar {
 
     0%,
     100% {
-        transform: translateY(0) rotate(0deg);
+        transform: scale(1.15) translateY(0) rotate(0deg);
     }
 
     50% {
-        transform: translateY(-20px) rotate(2deg);
+        transform: scale(1.15) translateY(-20px) rotate(2deg);
     }
 }
 
