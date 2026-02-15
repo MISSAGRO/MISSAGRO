@@ -52,9 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
     ctaButtons.forEach(btn => {
         btn.addEventListener('click', (e) => {
             e.preventDefault();
-            const href = btn.getAttribute('href');
-            const targetId = href.substring(1) === 'tecnoradar' ? 'radar' : 'about'; // Mapping href to IDs
-            navigateToSection(targetId);
+            const targetId = btn.getAttribute('data-nav');
+            if (targetId) navigateToSection(targetId);
         });
     });
 

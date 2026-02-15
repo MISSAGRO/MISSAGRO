@@ -201,27 +201,35 @@ main {
     padding: var(--spacing-lg);
 }
 
-h1.hero-title {
-    font-family: var(--font-heading);
-    font-size: 3.5rem;
+.hero-main-title {
     margin-bottom: var(--spacing-md);
-    text-shadow: 0 0 20px rgba(0, 255, 157, 0.3);
+}
+
+.pre-title {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
     color: var(--text-main);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1.2;
+    opacity: 0.8;
 }
 
-.fixed-title {
-    font-size: 0.8em;
-    opacity: 0.9;
-}
-
-.animated-title {
+.brand-name {
+    font-family: var(--font-heading);
+    font-size: 4.5rem;
     color: var(--primary);
-    min-height: 1.2em;
-    /* Reserve space */
+    line-height: 1;
+    margin: 10px 0;
+    text-shadow: 0 0 30px rgba(0, 255, 157, 0.4);
+}
+
+.highlight-cta {
+    background: var(--accent) !important;
+    color: var(--bg-dark) !important;
+    border-color: var(--accent) !important;
+    box-shadow: 0 0 15px rgba(255, 170, 0, 0.3) !important;
+}
+
+.highlight-cta:hover {
+    box-shadow: 0 0 25px rgba(255, 170, 0, 0.5) !important;
 }
 
 .acronym-reveal {
@@ -246,6 +254,9 @@ h1.hero-title {
     display: flex;
     gap: var(--spacing-md);
     justify-content: center;
+    flex-wrap: wrap;
+    /* Added to wrap buttons on small screens */
+    padding-top: var(--spacing-md);
 }
 
 .btn {
@@ -650,11 +661,11 @@ footer {
 
     0%,
     100% {
-        transform: scale(1.15) translateY(0) rotate(0deg);
+        transform: scale(1.3) translateY(0) rotate(0deg);
     }
 
     50% {
-        transform: scale(1.15) translateY(-20px) rotate(2deg);
+        transform: scale(1.3) translateY(-20px) rotate(2deg);
     }
 }
 
