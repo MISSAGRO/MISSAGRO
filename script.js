@@ -158,21 +158,32 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevBtn = document.getElementById('prev-question');
     const progressFill = document.getElementById('radar-progress');
 
+    // State: -1 = Welcome Screen, 0+ = Questions
+    radarData.currentStep = -1;
+
     function updateRadarUI() {
         if (!questionContent) return;
 
-        const q = radarData.questions[radarData.currentStep];
-        if (radarData.currentStep === 0 && !radarData.answers[q.id]) {
-            nextBtn.innerText = 'Comenzar';
-        } else if (radarData.currentStep === radarData.questions.length - 1) {
-            nextBtn.innerText = 'Finalizar Diagnóstico';
-        } else {
-            nextBtn.innerText = 'Siguiente';
+        if (radarData.currentStep === -1) {
+            // Welcome Screen
+            nextBtn.innerText = 'Comenzar Diagnóstico';
+            prevBtn.style.display = 'none';
+            progressFill.style.width = '0%';
+            questionContent.innerHTML = `
+                <h4>¿Estás listo para medir tu evolución digital?</h4>
+                <p>Este diagnóstico evaluará 6 ejes estratégicos de tu producción. Al finalizar, obtendrás un perfil detallado y recomendaciones personalizadas.</p>
+                <div class="highlight-text">Tiempo estimado: 3 minutos</div>
+            `;
+            return;
         }
 
-        progressFill.style.width = `${((radarData.currentStep) / radarData.questions.length) * 100}%`;
+        const q = radarData.questions[radarData.currentStep];
+        nextBtn.innerText = radarData.currentStep === radarData.questions.length - 1 ? 'Finalizar Diagnóstico' : 'Siguiente';
+
+        progressFill.style.width = `${((radarData.currentStep + 1) / radarData.questions.length) * 100}%`;
 
         questionContent.innerHTML = `
+            <div class="question-axis">${q.axis}</div>
             <h4>${q.text}</h4>
             <div class="options-grid">
                 ${q.options.map((opt, i) => `
@@ -184,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
 
-        prevBtn.style.display = radarData.currentStep > 0 ? 'inline-block' : 'none';
+        prevBtn.style.display = 'inline-block';
     }
 
     window.selectOption = (qId, val) => {
@@ -192,36 +203,36 @@ document.addEventListener('DOMContentLoaded', () => {
         const options = document.querySelectorAll('.option-btn');
         options.forEach(btn => btn.classList.remove('selected'));
         event.target.classList.add('selected');
-
-        // Auto-next for smoother flow
-        setTimeout(() => {
-            if (radarData.currentStep < radarData.questions.length - 1) {
-                radarData.currentStep++;
-                updateRadarUI();
-            } else {
-                showResults();
-            }
-        }, 300);
     };
 
     if (nextBtn) {
         nextBtn.addEventListener('click', () => {
-            if (radarData.currentStep < radarData.questions.length - 1) {
+            if (radarData.currentStep === -1) {
+                radarData.currentStep = 0;
+                updateRadarUI();
+            } else if (radarData.currentStep < radarData.questions.length - 1) {
                 if (radarData.answers[radarData.questions[radarData.currentStep].id]) {
                     radarData.currentStep++;
                     updateRadarUI();
                 } else {
-                    alert('Por favor, selecciona una opción.');
+                    alert('Por favor, selecciona una opción antes de continuar.');
                 }
             } else {
-                showResults();
+                if (radarData.answers[radarData.questions[radarData.currentStep].id]) {
+                    showResults();
+                } else {
+                    alert('Por favor, selecciona una opción antes de finalizar.');
+                }
             }
         });
     }
 
     if (prevBtn) {
         prevBtn.addEventListener('click', () => {
-            if (radarData.currentStep > 0) {
+            if (radarData.currentStep === 0) {
+                radarData.currentStep = -1;
+                updateRadarUI();
+            } else if (radarData.currentStep > 0) {
                 radarData.currentStep--;
                 updateRadarUI();
             }
