@@ -631,7 +631,9 @@ footer {
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
+    /* Added to hide the watermark when scaled */
+    border-radius: 20px;
 }
 
 .about-tech-img {
@@ -640,15 +642,15 @@ footer {
     height: auto;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border-radius: 20px;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+    transform: scale(1.08);
+    /* Scale up to push the watermark out of view */
     transition: transform 0.3s ease;
     animation: floatAvatar 6s ease-in-out infinite;
 }
 
 .about-tech-img:hover {
-    border-color: var(--primary);
+    transform: scale(1.12);
+    /* Slightly more zoom on hover */
 }
 
 @keyframes floatAvatar {
