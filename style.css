@@ -625,6 +625,14 @@ footer {
     border: 1px solid var(--border-color);
     padding: var(--spacing-md);
     border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.mv-card:hover {
+    transform: translateY(-5px);
+    background: rgba(0, 255, 157, 0.05);
+    border-color: var(--primary);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .mv-card h3 {
