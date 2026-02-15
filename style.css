@@ -813,21 +813,21 @@ footer {
     .chatbot-grid {
         grid-template-columns: 1fr;
         text-align: center;
-        gap: var(--spacing-lg);
+        gap: var(--spacing-xl);
+        padding: 0 var(--spacing-md);
     }
 
     .chatbot-visual {
         display: flex;
         justify-content: center;
-        margin-bottom: var(--spacing-md);
-        overflow: visible;
-        /* Ensure orbit isn't clipped */
+        margin-bottom: var(--spacing-lg);
+        order: -1;
+        /* Bot strictly on top */
     }
 
     .ai-avatar-core {
-        width: 180px;
-        /* Smaller on mobile */
-        height: 180px;
+        width: 220px;
+        height: 220px;
     }
 }
 
