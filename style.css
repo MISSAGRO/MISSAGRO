@@ -176,10 +176,8 @@ main {
 /* HERO SECTION */
 .hero {
     height: 90vh;
-    background: radial-gradient(circle at 70% 30%, rgba(0, 255, 157, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 20% 70%, rgba(0, 225, 255, 0.1) 0%, transparent 50%),
-        var(--bg-dark);
-    /* Image placeholder for future high-tech generation */
+    background: linear-gradient(rgba(10, 11, 14, 0.7), rgba(10, 11, 14, 0.7)),
+        url('assets/img/hero_bg.png') no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
@@ -366,7 +364,8 @@ h2::after {
 .radar-dashboard {
     max-width: 1000px;
     margin: 40px auto;
-    background: var(--bg-card);
+    background: linear-gradient(rgba(18, 20, 26, 0.9), rgba(18, 20, 26, 0.9)),
+        url('assets/img/radar_ui.png') no-repeat center center/cover;
     border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: var(--spacing-lg);
@@ -663,6 +662,26 @@ footer {
     .mission-vision {
         grid-template-columns: 1fr;
     }
+
+    .chatbot-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: var(--spacing-lg);
+    }
+
+    .chatbot-visual {
+        display: flex;
+        justify-content: center;
+        margin-bottom: var(--spacing-md);
+        overflow: visible;
+        /* Ensure orbit isn't clipped */
+    }
+
+    .ai-avatar-core {
+        width: 180px;
+        /* Smaller on mobile */
+        height: 180px;
+    }
 }
 
 /* Chatbot Intro Styles */
@@ -683,7 +702,7 @@ footer {
 .ai-avatar-core {
     width: 250px;
     height: 250px;
-    background: radial-gradient(circle, rgba(0, 255, 157, 0.2) 0%, transparent 70%);
+    background: url('assets/img/ai_bot.png') no-repeat center center/cover;
     border: 2px solid var(--primary);
     border-radius: 50%;
     position: relative;
@@ -691,6 +710,8 @@ footer {
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 50px rgba(0, 255, 157, 0.3);
+    overflow: hidden;
+    /* Contain the image */
 }
 
 .inner-pulse {
