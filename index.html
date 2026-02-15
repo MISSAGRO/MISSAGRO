@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="MissAgro: Soluciones de precisión para el agro. Tecnología, datos y sostenibilidad.">
+    <title>MissAgro | Tecnología Agronómica</title>
+    <!-- Google Fonts for Tech aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js for Tecno Radar -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">📡</span> MISS<span class="highlight">AGRO</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="active" data-target="home">Inicio</a></li>
+                <li><a href="#quienes-somos" data-target="about">Quiénes Somos</a></li>
+                <li><a href="#tecnoradar" data-target="radar">Tecno Radar</a></li>
+                <li><a href="#contacto" data-target="contact">Contacto</a></li>
+            </ul>
+            <div class="mobile-menu-btn">☰</div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main id="main-content">
+            <!-- SECCIÓN: INICIO -->
+            <section id="home" class="page-section active">
+                <div class="hero">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="fixed-title">AGRICULTURA DE</span>
+                            <span class="animated-title" data-text="PRECISIÓN">PRECISIÓN</span>
+                        </h1>
+                        <p class="subtitle">Transformamos datos en decisiones agronómicas inteligentes.</p>
+                        <div class="cta-group">
+                            <a href="#tecnoradar" class="btn primary-btn">Explorar Tecno Radar</a>
+                            <a href="#quienes-somos" class="btn secondary-btn">Conocer Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>📊 Análisis de Datos</h3>
+                        <p>Modelos predictivos y análisis estadístico avanzado para maximizar rendimientos.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🛰️ Monitoreo Satelital</h3>
+                        <p>Seguimiento de cultivos en tiempo real mediante índices espectrales de última generación.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🌱 Sostenibilidad</h3>
+                        <p>Estrategias para un manejo integral que cuida el recurso suelo y optimiza insumos.</p>
+                    </div>
+                </div>
+                <div class="chatbot-intro">
+                    <div class="content-container">
+                        <div class="chatbot-grid">
+                            <div class="chatbot-visual">
+                                <div class="ai-avatar-core">
+                                    <div class="inner-pulse"></div>
+                                    <div class="orbit"></div>
+                                </div>
+                            </div>
+                            <div class="chatbot-text">
+                                <h2>🤖 Asistente Inteligente</h2>
+                                <p>Presentamos el chatbot oficial de MISS AGRO, diseñado para brindar asesoramiento
+                                    inmediato sobre tecnologías AgTech, buenas prácticas sostenibles y herramientas
+                                    digitales en Argentina.</p>
+                                <ul class="tech-list">
+                                    <li>Asesoramiento sobre sensores y plataformas.</li>
+                                    <li>Soluciones personalizadas paso a paso.</li>
+                                    <li>Información verificada del sector agropecuario.</li>
+                                </ul>
+                                <p class="highlight-text">💡 Disponible 24/7 en la esquina inferior derecha.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCIÓN: QUIÉNES SOMOS -->
+            <section id="about" class="page-section">
+                <div class="content-container">
+                    <div class="about-header">
+                        <h2>¿Quiénes somos?</h2>
+                        <p class="lead">Combinamos saberes técnicos, científicos y empíricos para lograr respuestas
+                            concretas a problemas complejos.</p>
+                    </div>
+
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <p>Somos un equipo interdisciplinario de profesionales en ciencias agrarias, tecnología y
+                                análisis de datos aplicados al agro. Contamos con formación de posgrado, experiencia
+                                académica y trayectoria en campo, lo que nos permite unir el saber técnico con las
+                                realidades productivas de cada establecimiento.</p>
+
+                            <div class="mission-vision">
+                                <div class="mv-card">
+                                    <h3>🌿 Misión</h3>
+                                    <p>Impulsar la transformación del sistema agropecuario argentino promoviendo la
+                                        adopción efectiva de tecnologías sustentables, mediante consultoría técnica,
+                                        análisis de datos y acompañamiento estratégico adaptado a cada territorio.</p>
+                                </div>
+                                <div class="mv-card">
+                                    <h3>🌄 Visión</h3>
+                                    <p>Ser referentes en la integración de innovación, conocimiento y sostenibilidad
+                                        para lograr un agro más inteligente, competitivo y resiliente.</p>
+                                </div>
+                            </div>
+
+                            <div class="values-section">
+                                <h3>🌟 Nuestros Valores</h3>
+                                <ul class="tech-list">
+                                    <li><strong>Compromiso territorial:</strong> Entendemos la diversidad de realidades
+                                        productivas y acompañamos con presencia activa.</li>
+                                    <li><strong>Innovación accesible:</strong> Nos enfocamos en reducir la brecha entre
+                                        las tecnologías disponibles y su implementación real.</li>
+                                    <li><strong>Ética profesional:</strong> Basamos nuestro trabajo en la transparencia,
+                                        la confidencialidad y el respeto.</li>
+                                    <li><strong>Sostenibilidad integral:</strong> Proponemos soluciones que consideran
+                                        la productividad, el ambiente y el bienestar social.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="about-visual">
+                            <div class="tech-visual-placeholder">
+                                <div class="pulse-circle"></div>
+                                <div class="data-stream"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCIÓN: TECNO RADAR -->
+            <section id="radar" class="page-section">
+                <div class="radar-header">
+                    <h2>Tecno Radar <span class="beta-badge">BETA</span></h2>
+                    <p class="lead">Autodiagnóstico del nivel tecnológico de tu sistema productivo.</p>
+                    <div class="radar-description">
+                        <p><strong>TecnoRadar</strong> es una herramienta interactiva desarrollada por MISS AGRO para
+                            que productores puedan autoevaluar su nivel de implementación tecnológica.</p>
+                        <ul class="tech-list-inline">
+                            <li>📡 Diagnóstico en 6 ejes clave</li>
+                            <li>📊 Visualización de perfil tecnológico</li>
+                            <li>💡 Recomendaciones personalizadas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="radar-dashboard">
+                    <div class="radar-setup" id="radar-questionnaire">
+                        <div class="setup-header">
+                            <h3>Cuestionario de Diagnóstico</h3>
+                            <div class="progress-bar-container">
+                                <div class="progress-fill" id="radar-progress"></div>
+                            </div>
+                        </div>
+                        <div id="question-content" class="question-card">
+                            <!-- Questions will be injected here by JS -->
+                            <p>Iniciando sistema de diagnóstico...</p>
+                        </div>
+                        <div class="setup-controls">
+                            <button id="prev-question" class="btn secondary-btn" style="display:none">Anterior</button>
+                            <button id="next-question" class="btn primary-btn">Comenzar</button>
+                        </div>
+                    </div>
+
+                    <div class="radar-results" id="radar-results" style="display:none">
+                        <div class="results-grid">
+                            <div class="chart-container">
+                                <canvas id="radarChart"></canvas>
+                            </div>
+                            <div class="results-info">
+                                <h3>Tu Perfil: <span id="profile-name" class="highlight">---</span></h3>
+                                <p id="profile-desc">Analizando resultados...</p>
+                                <div class="action-buttons">
+                                    <button class="btn primary-btn" onclick="location.reload()">Reiniciar Test</button>
+                                    <button class="btn secondary-btn" onclick="window.print()">Guardar PDF</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCIÓN: CONTACTO -->
+            <section id="contact" class="page-section">
+                <div class="content-container">
+                    <h2>Conectá con el Futuro</h2>
+                    <div class="contact-layout">
+                        <form class="tech-form">
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" placeholder="Tu nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="tu@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" rows="5" placeholder="¿En qué podemos ayudarte?"></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn">Enviar Transmisión</button>
+                        </form>
+                        <div class="contact-info">
+                            <h3>Información Directa</h3>
+                            <p>📧 miss.agro.ar@gmail.com</p>
+                            <p>📍 Argentina</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2026 MISS AGRO. Todos los derechos reservados.</p>
+                <div class="footer-tech-decoration"></div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        (function () {
+            if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+                window.chatbase = (...args) => {
+                    if (!window.chatbase.q) {
+                        window.chatbase.q = [];
+                    }
+                    window.chatbase.q.push(args);
+                };
+                window.chatbase = new Proxy(window.chatbase, {
+                    get(target, prop) {
+                        if (prop === "q") return target.q;
+                        return (...args) => target(prop, ...args);
+                    }
+                });
+            }
+
+            const onLoad = function () {
+                const script = document.createElement("script");
+                script.src = "https://www.chatbase.co/embed.min.js";
+                script.id = "i26s5Tm69n99V1Y5tfUva";
+                script.domain = "www.chatbase.co";
+                document.body.appendChild(script);
+            };
+
+            if (document.readyState === "complete") {
+                onLoad();
+            } else {
+                window.addEventListener("load", onLoad);
+            }
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
