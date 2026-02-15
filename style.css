@@ -543,24 +543,30 @@ footer {
 @media (max-width: 768px) {
     .navbar .nav-links {
         display: none;
-        /* Simplification for prototype */
     }
 
     .mobile-menu-btn {
         display: block;
     }
 
-    h1 {
-        font-size: 2.2rem;
+    .hero {
+        padding-top: 80px;
+        /* Add space for fixed navbar */
+        height: auto;
+        min-height: 80vh;
     }
 
-    .about-grid,
+    .brand-name {
+        font-size: 2.8rem;
+    }
+
+    .pre-title {
+        font-size: 0.9rem;
+    }
+
+    .about-main-grid,
     .contact-layout {
         grid-template-columns: 1fr;
-    }
-
-    .hero {
-        height: 70vh;
     }
 }
 
