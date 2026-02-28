@@ -233,15 +233,16 @@
                         <form class="tech-form">
                             <div class="form-group">
                                 <label for="name">Nombre</label>
-                                <input type="text" id="name" placeholder="Tu nombre">
+                                <input type="text" id="name" placeholder="Tu nombre" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" id="email" placeholder="tu@email.com">
+                                <input type="email" id="email" placeholder="tu@email.com" required>
                             </div>
                             <div class="form-group">
                                 <label for="message">Mensaje</label>
-                                <textarea id="message" rows="5" placeholder="¿En qué podemos ayudarte?"></textarea>
+                                <textarea id="message" rows="5" placeholder="¿En qué podemos ayudarte?"
+                                    required></textarea>
                             </div>
                             <button type="submit" class="btn primary-btn">Enviar Consulta</button>
                         </form>
@@ -263,38 +264,6 @@
         </footer>
     </div>
 
-    <script>
-        (function () {
-            if (!window.chatbase || window.chatbase("getState") !== "initialized") {
-                window.chatbase = (...args) => {
-                    if (!window.chatbase.q) {
-                        window.chatbase.q = [];
-                    }
-                    window.chatbase.q.push(args);
-                };
-                window.chatbase = new Proxy(window.chatbase, {
-                    get(target, prop) {
-                        if (prop === "q") return target.q;
-                        return (...args) => target(prop, ...args);
-                    }
-                });
-            }
-
-            const onLoad = function () {
-                const script = document.createElement("script");
-                script.src = "https://www.chatbase.co/embed.min.js";
-                script.id = "i26s5Tm69n99V1Y5tfUva";
-                script.domain = "www.chatbase.co";
-                document.body.appendChild(script);
-            };
-
-            if (document.readyState === "complete") {
-                onLoad();
-            } else {
-                window.addEventListener("load", onLoad);
-            }
-        })();
-    </script>
     <script src="script.js"></script>
 </body>
 

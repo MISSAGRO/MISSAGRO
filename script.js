@@ -59,7 +59,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Mobile Menu Toggle
     mobileMenuBtn.addEventListener('click', () => {
-        if (navList.style.display === 'flex') {
+        const isOpen = navList.style.display === 'flex';
+        mobileMenuBtn.classList.toggle('active', !isOpen);
+
+        if (isOpen) {
             navList.style.display = 'none';
         } else {
             navList.style.display = 'flex';
@@ -70,7 +73,18 @@ document.addEventListener('DOMContentLoaded', () => {
             navList.style.width = '100%';
             navList.style.background = 'var(--bg-card)';
             navList.style.padding = '20px';
+            navList.style.borderBottom = '1px solid var(--border-color)';
         }
+    });
+
+    // Close menu when clicking links (Mobile)
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                navList.style.display = 'none';
+                mobileMenuBtn.classList.remove('active');
+            }
+        });
     });
 
     // === ANIMATION FOR HERO TITLE ===
@@ -336,7 +350,47 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize UI
     updateRadarUI();
 
+    // === LAZY LOAD CHATBASE (PERFORMANCE) ===
+    const chatbotSection = document.getElementById('asistente');
 
-    // === IFRAME LOADING (REMOVED logic used for previous version) ===
+    if (chatbotSection && 'IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    initChatbase();
+                    observer.unobserve(chatbotSection);
+                }
+            });
+        }, { threshold: 0.1 });
 
+        observer.observe(chatbotSection);
+    } else {
+        // Fallback: load after delay
+        setTimeout(initChatbase, 3000);
+    }
+
+    function initChatbase() {
+        if (window.chatbaseInitialized) return;
+        window.chatbaseInitialized = true;
+
+        if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+            window.chatbase = (...args) => {
+                if (!window.chatbase.q) window.chatbase.q = [];
+                window.chatbase.q.push(args);
+            };
+            window.chatbase = new Proxy(window.chatbase, {
+                get(target, prop) {
+                    if (prop === "q") return target.q;
+                    return (...args) => target(prop, ...args);
+                }
+            });
+        }
+
+        const script = document.createElement("script");
+        script.src = "https://www.chatbase.co/embed.min.js";
+        script.id = "i26s5Tm69n99V1Y5tfUva";
+        script.domain = "www.chatbase.co";
+        document.body.appendChild(script);
+        console.log("Chatbase initialized via lazy-load");
+    }
 });

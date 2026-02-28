@@ -141,6 +141,20 @@ ul {
     display: none;
     cursor: pointer;
     font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.mobile-menu-btn.active {
+    transform: rotate(90deg);
+}
+
+/* ACCESSIBILITY: Focus States */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 4px;
 }
 
 /* MAIN CONTENT */
@@ -549,6 +563,11 @@ footer {
         display: block;
     }
 
+    .nav-links {
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow: hidden;
+    }
+
     .hero {
         padding-top: 80px;
         /* Add space for fixed navbar */
@@ -567,6 +586,18 @@ footer {
     .about-main-grid,
     .contact-layout {
         grid-template-columns: 1fr;
+    }
+
+    /* 2.1 Visibilidad y Comportamiento del Asistente Virtual en Mobile */
+    iframe[id^="chatbase"] {
+        z-index: 9999 !important;
+        bottom: 24px !important;
+        right: 16px !important;
+    }
+
+    body {
+        position: relative;
+        overscroll-behavior-y: none;
     }
 }
 
