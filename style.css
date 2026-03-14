@@ -726,6 +726,7 @@ footer {
 .values-section {
     margin-top: 60px;
     padding-top: 40px;
+    margin-bottom: var(--spacing-xl);
     border-top: 1px solid var(--border-color);
 }
 
